@@ -19,9 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "vk",
       "styles": [
-        "styles.css",
-        "normalize.css",
-        "skeleton.css"
+        "styles.scss",
+        "skeleton.css",
+        "reset.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

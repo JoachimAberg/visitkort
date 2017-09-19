@@ -1,0 +1,76 @@
+.business-card {
+  display: block;
+  width: 350px;
+  height: 190px;
+  margin: 300px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  -webkit-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 11px 24px -1px rgba(0, 0, 0, 0.6);
+  transition: 1.0s ease;
+  -moz-transition: 1.0s ease;
+  -webkit-transition: 1.0s ease;
+  -o-transition: 1.0s ease;
+  background-color: #EFEFEF;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, .3);
+}
+
+.business-card:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+}
+
+.number {
+  display: block;
+  float: left;
+  font-size: 15px;
+}
+
+.company {
+  display: block;
+  float: right;
+  text-align: center;
+
+}
+
+.company-name {
+  display: block;
+}
+
+.company-desc {
+  display: block;
+  font-size: 12px;
+}
+
+.employee {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 25px;
+}
+
+.employee-name {
+  display: block;
+}
+
+.employee-position {
+  display: block
+}
+
+;
+
+.contact {
+  text-align: left;
+  display: block;
+  margin-top: 65px;
+}
