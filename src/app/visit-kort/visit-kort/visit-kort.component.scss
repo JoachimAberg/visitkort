@@ -47,7 +47,7 @@ $base-size: 60;
   display: block;
   position: relative;
   text-align: center;
-  margin-top:$base-size*0.2125vw;
+  margin-top:$base-size*0.1125vw;
   font-size: $base-size*0.1vw;
 }
 
@@ -63,8 +63,12 @@ $base-size: 60;
   font-size: $base-size*0.075vw;
 }
 
+.fa.fa-size-lg{
+  font-size: $base-size*0.1vw;
+}
+
 .contact {
   text-align: left;
   display: block;
-  margin-top: $base-size*0.175vw;
+  margin-top: ($base-size/6)*1vw;
 }
