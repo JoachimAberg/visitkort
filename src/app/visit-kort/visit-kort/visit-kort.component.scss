@@ -1,9 +1,9 @@
 .business-card {
   display: block;
-  width: 400px;
-  height: 220px;
-  margin: 300px auto;
-  padding: 15px;
+  width: 40vw;
+  height: 40*0.55vw;
+  margin: 25% auto;
+  padding: 1.5vw;
   -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
   box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
@@ -26,12 +26,6 @@
 }
 
 
-.number {
-  display: block;
-  float: left;
-  font-size: 15px;
-}
-
 .company {
   display: block;
   float: right;
@@ -45,15 +39,15 @@
 
 .company-desc {
   display: block;
-  font-size: 12px;
+  font-size: 1vw;
 }
 
 .employee {
   display: block;
   position: relative;
   text-align: center;
-  margin-top: 90px;
-  font-size: 35px;
+  margin-top: 8.5vw;
+  font-size: 4vw;
 }
 
 .employee-name {
@@ -64,10 +58,12 @@
   display: block
 }
 
-;
+.fa.fa-size{
+  font-size: 3vw;
+}
 
 .contact {
   text-align: left;
   display: block;
-  margin-top: 68px;
+  margin-top: 7vw;
 }
