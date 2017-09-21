@@ -2,6 +2,14 @@ $base-size-min: 80;
 $base-size: 60;
 $base-size-large-screen: 900;
 
+.fa:hover{
+   color: #e1e1e1;
+ }
+
+.selected{
+  color: #e1e1e1;
+}
+
 @media (max-width: 900px) {
 
   .business-card {
@@ -14,12 +22,14 @@ $base-size-large-screen: 900;
     -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
     box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
     background-image: url('../../../assets/images/kort-pattern.jpg');
+    background-size: cover;
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -o-transform: rotate(5deg);
     transform: rotate(5deg);
     text-shadow: 0.1vm 3vm 3vm rgba(255, 255, 255, 0.5), 0px -1vm 1vm rgba(0, 0, 0, .3);
+    z-index: 2;
   }
 
   .business-card.scale {
@@ -51,7 +61,7 @@ $base-size-large-screen: 900;
     display: block;
     position: relative;
     text-align: center;
-    margin-top: $base-size-min*0.1125vw;
+    margin-top: $base-size-min*0.073125vw;
     font-size: $base-size-min*0.1vw;
   }
 
@@ -59,8 +69,9 @@ $base-size-large-screen: 900;
     display: block;
   }
 
-  .employee-position {
-    display: block
+  .employee-role {
+    display: block;
+    font-size: $base-size-min*0.05vw;
   }
 
   .fa.fa-size {
@@ -89,6 +100,7 @@ $base-size-large-screen: 900;
     -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
     box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
     background-image: url('../../../assets/images/kort-pattern.jpg');
+    background-size: cover;
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
@@ -126,7 +138,7 @@ $base-size-large-screen: 900;
     display: block;
     position: relative;
     text-align: center;
-    margin-top: $base-size*0.1125vw;
+    margin-top: $base-size*0.073125vw;
     font-size: $base-size*0.1vw;
   }
 
@@ -134,8 +146,9 @@ $base-size-large-screen: 900;
     display: block;
   }
 
-  .employee-position {
-    display: block
+  .employee-role {
+    display: block;
+    font-size: $base-size*0.05vw;
   }
 
   .fa.fa-size {
@@ -164,12 +177,13 @@ $base-size-large-screen: 900;
     -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
     box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
     background-image: url('../../../assets/images/kort-pattern.jpg');
+    background-size: cover;
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -o-transform: rotate(5deg);
     transform: rotate(5deg);
-    text-shadow: 0.1vm 3vm 3vm rgba(255, 255, 255, 0.5), 0px -1vm 1vm rgba(0, 0, 0, .3);
+    text-shadow: 0.1px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, .3);
   }
 
   .business-card.scale {
@@ -201,7 +215,7 @@ $base-size-large-screen: 900;
     display: block;
     position: relative;
     text-align: center;
-    margin-top: $base-size-large-screen*0.1125px;
+    margin-top: $base-size-large-screen*0.073125px;
     font-size: $base-size-large-screen*0.1px;
   }
 
@@ -209,8 +223,9 @@ $base-size-large-screen: 900;
     display: block;
   }
 
-  .employee-position {
-    display: block
+  .employee-role {
+    display: block;
+    font-size: $base-size-large-screen*0.05px;
   }
 
   .fa.fa-size {

@@ -1,12 +1,12 @@
 <div (click)="scale=true" class="business-card" [ngClass]="{'scale':scale}">
-  <div class = "number"><i class="fa fa-size-lg fa-address-card" aria-hidden="true"></i></div>
+  <div class = "number"><i class="fa fa-size-lg fa-address-card" [ngClass]="{'selected':visaKontakter}" aria-hidden="true" (click)="state.toggleAddressTabb($event)"></i></div>
   <div class = "company">
     <div class = "company-name"></div>
     <div class ="company-description"></div>
   </div>
   <div class = "employee">
     <div class = "employee">Joachim Åberg</div>
-    <div class = "employee-position"></div>
+    <div class = "employee-role">Systemutvecklare/Konsult</div>
   </div>
   <div class = "contact">
     <i class="fa fa-size fa-facebook-official" aria-hidden="true"></i>

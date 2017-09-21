@@ -4,9 +4,7 @@ import {MdCardModule, MdButtonModule} from '@angular/material';
 
 @NgModule({
   imports: [
-    CommonModule,
-    MdCardModule,
-    MdButtonModule
+    CommonModule
   ],
   declarations: [],
   exports: [MdCardModule, MdButtonModule]

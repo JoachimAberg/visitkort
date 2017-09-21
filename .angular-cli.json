@@ -20,7 +20,6 @@
       "prefix": "vk",
       "styles": [
         "styles.scss",
-        "skeleton.css",
         "reset.css"
       ],
       "scripts": [],

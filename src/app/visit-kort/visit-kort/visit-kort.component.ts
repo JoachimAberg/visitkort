@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {StateService} from '../../core/services/state.service';
 
 @Component({
   selector: 'vk-visit-kort',
@@ -8,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 export class VisitKortComponent implements OnInit {
 
   scale = false;
-  constructor() { }
+  state: StateService;
+  visaKontakter = false;
+
+  constructor(private stateService: StateService) {
+    this.state = stateService;
+  }
 
   ngOnInit() {
+
+    this.state.visaAdressTabbObservable.subscribe((visaBool) => {
+      this.visaKontakter = visaBool;
+    });
   }
 
 }
