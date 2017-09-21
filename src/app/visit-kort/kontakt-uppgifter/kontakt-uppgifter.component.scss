@@ -1,29 +1,95 @@
-.kontakt-uppgifter{
-  width: 30vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  background: #f8f9f3;
-  z-index: 3;
-  -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-  box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
-  font-size: 2vw;
-}
-.kontakt-uppgifter-content{
-  padding: 2vw;
+@media (max-width: 750px) {
+  .kontakt-uppgifter {
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: #f8f9f3;
+    z-index: 3;
+    -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
+    font-size: 5vw;
+  }
+  .kontakt-uppgifter-content {
+    padding: 5vw;
+  }
+
+  .kontakt-li-marker {
+    width: 7vw;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+  }
+  .kontakt-li-item {
+    width: 57vw;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+  }
+  .uppgift {
+    padding-bottom: 1.5vw;
+  }
 }
 
-.kontakt-li-marker{
-  width: 3vw;
-  display: inline-block;
-  padding-bottom:0.3vw;
+@media (min-width: 750px) and (max-width: 1500px) {
+  .kontakt-uppgifter {
+    width: 60vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: #f8f9f3;
+    z-index: 3;
+    -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
+    font-size: 3.8vw;
+  }
+  .kontakt-uppgifter-content {
+    padding: 5vw;
+  }
+
+  .kontakt-li-marker {
+    width: 5vw;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+  }
+  .kontakt-li-item {
+    width: 44vw;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+  }
+  .uppgift {
+    padding-bottom: 1.5vw;
+  }
 }
-.kontakt-li-item{
-  width: 23vw;
-  display: inline-block;
-  padding-bottom:0.3vw;
-}
-.uppgift{
-  padding-bottom:1vw;
+
+@media (min-width: 1500px) {
+  .kontakt-uppgifter {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: #f8f9f3;
+    z-index: 3;
+    -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
+    font-size: 3vw;
+  }
+  .kontakt-uppgifter-content {
+    padding: 5vw;
+  }
+
+  .kontakt-li-marker {
+    width: 5vw;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+  }
+  .kontakt-li-item {
+    width: 35vw;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+  }
+  .uppgift {
+    padding-bottom: 1.5vw;
+  }
 }
