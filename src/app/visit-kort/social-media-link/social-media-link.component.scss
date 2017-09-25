@@ -10,7 +10,7 @@ $base-size-large-screen: 900;
 
   .social-media-lank{
     display: inline-block;
-    font-size: $base-size-min*0.035vw;
+    font-size: $base-size-min*0.07vw;
   }
 
   .fa-wrapper{
@@ -18,7 +18,7 @@ $base-size-large-screen: 900;
     margin-right: $base-size-min*0.01vw;
 
     i{
-      font-size: $base-size-min*0.07vw;
+        font-size: $base-size-min*0.1vw;
     }
   }
 }
@@ -32,7 +32,7 @@ $base-size-large-screen: 900;
 
   .social-media-lank {
     display: inline-block;
-    font-size: $base-size*0.05vw;
+    font-size: $base-size*0.07vw;
   }
 
   .fa-wrapper {
@@ -40,7 +40,7 @@ $base-size-large-screen: 900;
     margin-right: $base-size*0.01vw;
 
     i {
-      font-size: $base-size*0.07vw;
+      font-size: $base-size*0.1vw;
     }
   }
 }
@@ -53,7 +53,7 @@ $base-size-large-screen: 900;
 
   .social-media-lank {
     display: inline-block;
-    font-size: $base-size-large-screen*0.05px;
+    font-size: $base-size-large-screen*0.85*0.07px;
   }
 
   .fa-wrapper {
@@ -61,7 +61,7 @@ $base-size-large-screen: 900;
     margin-right: $base-size-large-screen*0.01px;
 
     i {
-      font-size: $base-size-large-screen*0.07px;
+      font-size: $base-size-large-screen*0.085px;
     }
   }
 }
