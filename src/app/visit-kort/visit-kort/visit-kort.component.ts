@@ -11,6 +11,7 @@ export class VisitKortComponent implements OnInit {
   scale = false;
   state: StateService;
   visaKontakter = false;
+  selectedSocialMedia = '';
 
   constructor(private stateService: StateService) {
     this.state = stateService;
@@ -22,5 +23,12 @@ export class VisitKortComponent implements OnInit {
       this.visaKontakter = visaBool;
     });
   }
-
+  toggleSocialMedia(selected) {
+    console.log(selected)
+    if (this.selectedSocialMedia === selected) {
+      this.selectedSocialMedia = '';
+    } else {
+      this.selectedSocialMedia = selected;
+    }
+  }
 }

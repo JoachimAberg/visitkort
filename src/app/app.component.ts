@@ -1,8 +1,8 @@
-import {Component, ElementRef, HostListener} from '@angular/core';
+import {Component, ElementRef} from '@angular/core';
 import {StateService} from './core/services/state.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'vk-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

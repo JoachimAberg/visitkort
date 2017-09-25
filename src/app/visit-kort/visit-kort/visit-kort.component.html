@@ -1,4 +1,4 @@
-<div (click)="scale=true" class="business-card" [ngClass]="{'scale':scale}">
+<div  class="business-card">
   <div class = "number"><i class="fa fa-size-lg fa-address-card" [ngClass]="{'selected':visaKontakter}" aria-hidden="true" (click)="state.toggleAddressTabb($event)"></i></div>
   <div class = "company">
     <div class = "company-name"></div>
@@ -9,9 +9,11 @@
     <div class = "employee-role">Systemutvecklare/Konsult</div>
   </div>
   <div class = "contact">
-    <i class="fa fa-size fa-facebook-official" aria-hidden="true"></i>
-    <i class="fa fa-size fa-instagram" aria-hidden="true"></i>
-    <i class="fa fa-size fa-linkedin-square" aria-hidden="true"></i>
-    <i class="fa fa-size fa-github-square" aria-hidden="true"></i>
+    <i class="fa fa-size fa-facebook-official" aria-hidden="true" (click)="toggleSocialMedia('facebook-official')" [ngClass]="{'selected':selectedSocialMedia=='facebook-official'}"></i>
+    <i class="fa fa-size fa-instagram" aria-hidden="true" (click)="toggleSocialMedia('instagram')" [ngClass]="{'selected':selectedSocialMedia=='instagram'}"></i>
+    <i class="fa fa-size fa-linkedin-square" aria-hidden="true" (click)="toggleSocialMedia('linkedin-square')" [ngClass]="{'selected':selectedSocialMedia=='linkedin-square'}"></i>
+    <i class="fa fa-size fa-github-square" aria-hidden="true" (click)="toggleSocialMedia('github-square')" [ngClass]="{'selected':selectedSocialMedia=='github-square'}"></i>
   </div>
 </div>
+
+<vk-social-media-link [faIkon]="selectedSocialMedia"></vk-social-media-link>
