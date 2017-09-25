@@ -11,12 +11,15 @@ $base-size-large-screen: 900;
 }
 
 @media (max-width: 900px) {
+  .vk-wrapper{
+    margin: 80px auto;
+  }
 
   .business-card {
     display: block;
     width: $base-size-min*1vw;
     height: $base-size-min*0.55vw;
-    margin: 5vh auto;
+    margin: 5vw auto 2vw auto;
     padding: $base-size-min*0.0375vw;
     -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
@@ -90,11 +93,14 @@ $base-size-large-screen: 900;
 }
 
 @media (max-width: 1500px) and (min-width: 900px) {
+  .vk-wrapper{
+    margin: 80px auto;
+  }
   .business-card {
     display: block;
     width: $base-size*1vw;
     height: $base-size*0.55vw;
-    margin: 10vh auto;
+    margin: 3vw auto 2vw auto;
     padding: $base-size*0.0375vw;
     -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
@@ -167,11 +173,14 @@ $base-size-large-screen: 900;
 }
 
 @media (min-width: 1501px) {
+  .vk-wrapper{
+    margin: 80px auto;
+  }
   .business-card {
     display: block;
     width: $base-size-large-screen*1px;
     height: $base-size-large-screen*0.55px;
-    margin: 10vh auto;
+    margin: 80px auto 25px auto;
     padding: $base-size-large-screen*0.0375px;
     -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
