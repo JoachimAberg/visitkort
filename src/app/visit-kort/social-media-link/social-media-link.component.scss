@@ -5,7 +5,7 @@ $base-size-large-screen: 900;
 @media (max-width: 900px) {
   .social-media-link{
     width: $base-size-min*1.05vw;
-    margin: 0px auto;
+    margin: 5px auto;
   }
 
   .social-media-lank{
@@ -27,7 +27,7 @@ $base-size-large-screen: 900;
 
     width: $base-size*1.05vw;
 
-    margin: 0px auto;
+    margin: 5px auto;
   }
 
   .social-media-lank {
@@ -48,7 +48,7 @@ $base-size-large-screen: 900;
 @media (min-width: 1501px) {
   .social-media-link {
     width: 950px;
-    margin: 0px auto;
+    margin: 5px auto;
   }
 
   .social-media-lank {
