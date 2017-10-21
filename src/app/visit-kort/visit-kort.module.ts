@@ -11,6 +11,7 @@ import { VisitKortSocialMediaLinkComponent } from './social-media-link/social-me
     SharedModule
   ],
   declarations: [VisitKortComponent, KontaktUppgifterComponent, VisitKortSocialMediaLinkComponent],
-  exports: [KontaktUppgifterComponent, VisitKortComponent]
+  exports: [ VisitKortComponent],
+  entryComponents: [KontaktUppgifterComponent]
 })
 export class VisitKortModule { }

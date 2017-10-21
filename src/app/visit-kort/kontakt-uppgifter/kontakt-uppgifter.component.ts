@@ -1,5 +1,6 @@
 import {Component, ElementRef, HostListener, OnInit} from '@angular/core';
 import {StateService} from '../../core/services/state.service';
+import {MatDialogRef} from '@angular/material';
 
 @Component({
   selector: 'vk-kontakt-uppgifter',
@@ -10,7 +11,7 @@ export class KontaktUppgifterComponent implements OnInit {
 
   visa = false;
   public state: StateService;
-  constructor(private stateService: StateService, private _el: ElementRef) {
+  constructor(private stateService: StateService, private _el: ElementRef, dialogRef: MatDialogRef<KontaktUppgifterComponent>) {
     this.state = stateService;
   }
 

@@ -17,6 +17,7 @@ import {VisitKortModule} from './visit-kort/visit-kort.module';
     VisitKortModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: []
 })
 export class AppModule { }

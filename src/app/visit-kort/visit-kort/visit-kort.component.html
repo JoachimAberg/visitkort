@@ -1,6 +1,6 @@
 <div class="vk-wrapper">
   <div  class="business-card">
-    <div class = "number"><i class="fa fa-size-lg fa-address-card" [ngClass]="{'selected':visaKontakter}" aria-hidden="true" (click)="state.toggleAddressTabb($event)"></i></div>
+    <div class = "number"><i class="fa fa-size-lg fa-address-card" [ngClass]="{'selected':visaKontakter}" aria-hidden="true" (click)="openKontaktUppgifter()"></i></div>
     <div class = "company">
       <div class = "company-name"></div>
       <div class ="company-description"></div>
@@ -16,6 +16,7 @@
       <i class="fa fa-size fa-github-square" aria-hidden="true" (click)="toggleSocialMedia('github-square')" [ngClass]="{'selected':selectedSocialMedia=='github-square'}"></i>
     </div>
   </div>
+
 
   <vk-social-media-link [faIkon]="selectedSocialMedia"></vk-social-media-link>
 </div>

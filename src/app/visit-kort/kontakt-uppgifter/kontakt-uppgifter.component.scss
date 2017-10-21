@@ -1,27 +1,23 @@
 @media (max-width: 750px) {
   .kontakt-uppgifter {
-    width: 80vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    background: #f8f9f3;
-    z-index: 3;
-    -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-    box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
-    font-size: 5vmin;
+        font-size: 5vmin;
   }
+
+  h1 {
+    font-size: 5*1.4vmin;
+    margin-bottom: 5*0.3vmin;
+    font-weight: 600;
+  }
+
   .kontakt-uppgifter-content {
     padding: 5vw;
   }
 
   .kontakt-li-marker {
-    width: 7vw;
     display: inline-block;
     padding-bottom: 0.5vw;
   }
   .kontakt-li-item {
-    width: 62vw;
     display: inline-block;
     padding-bottom: 0.5vmin;
   }
@@ -32,28 +28,24 @@
 
 @media (min-width: 750px) and (max-width: 1500px) {
   .kontakt-uppgifter {
-    width: 70vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    background: #f8f9f3;
-    z-index: 3;
-    -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-    box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
+
     font-size: 4.5vmin;
+  }
+
+  h1 {
+    font-size: 4.5*1.4vmin;
+    margin-bottom: 4.5*0.3vmin;
+    font-weight: 600;
   }
   .kontakt-uppgifter-content {
     padding: 5vw;
   }
 
   .kontakt-li-marker {
-    width: 5vw;
     display: inline-block;
     padding-bottom: 0.5vw;
   }
   .kontakt-li-item {
-    width: 55vw;
     display: inline-block;
     padding-bottom: 0.5vm;
   }
@@ -64,32 +56,32 @@
 
 @media (min-width: 1500px) {
   .kontakt-uppgifter {
-    width: 40vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    background: #f8f9f3;
-    z-index: 3;
-    -webkit-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 3px 5px 12px -1px rgba(0, 0, 0, 0.6);
-    box-shadow: 3px 5px 12px -2px rgba(0, 0, 0, 0.6);
-    font-size: 2.4vw;
+
+    font-size: 55px;
+  }
+  h1 {
+    font-size: 55*1.4px;
+    margin-bottom: 55*0.3px;
+    font-weight: 600;
   }
   .kontakt-uppgifter-content {
-    padding: 5vw;
+    padding: 75px;
   }
 
   .kontakt-li-marker {
-    width: 5vw;
     display: inline-block;
-    padding-bottom: 0.5vw;
+    padding-bottom: 15px;
   }
   .kontakt-li-item {
-    width: 25vw;
     display: inline-block;
-    padding-bottom: 0.5vw;
+    padding-bottom: 7.5px;
   }
   .uppgift {
-    padding-bottom: 1.5vw;
+    padding-bottom: 22.5px;
   }
+}
+
+.kontakt-wrapper {
+  font-family: 'Poiret One', cursive;
+  color: #312c42;
 }
