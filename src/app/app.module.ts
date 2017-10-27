@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import {CoreModule} from './core/core.module';
 import {VisitKortModule} from './visit-kort/visit-kort.module';
 import {AppRoutingModule} from './app-routing.module';
+import { KonamiSnackBarComponent } from './konami-snack-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KonamiSnackBarComponent
   ],
   imports: [
     BrowserModule,
@@ -19,6 +21,6 @@ import {AppRoutingModule} from './app-routing.module';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents: []
+  entryComponents: [KonamiSnackBarComponent]
 })
 export class AppModule { }
