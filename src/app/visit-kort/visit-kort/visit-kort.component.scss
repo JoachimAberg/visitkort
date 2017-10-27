@@ -2,8 +2,8 @@ $base-size-min: 80;
 $base-size: 60;
 $base-size-large-screen: 900;
 
-.fa:hover{
-   color: #e1e1e1;
+.fa:hover:not(.selected){
+   color: #d3d3e2;
  }
 
 .selected{
@@ -68,6 +68,7 @@ $base-size-large-screen: 900;
     text-align: center;
     margin-top: $base-size-min*0.073125vw;
     font-size: $base-size-min*0.1vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
   }
 
   .employee-name {
@@ -81,10 +82,12 @@ $base-size-large-screen: 900;
 
   .fa.fa-size {
     font-size: $base-size-min*0.1vw;
+    text-shadow: 2px 2px 2px rgba(79, 64, 125, 0.49)
   }
 
   .fa.fa-size-lg {
     font-size: $base-size-min*0.1vw;
+    text-shadow: 2px 2px 2px rgba(79, 64, 125, 0.49)
   }
 
   .contact {
@@ -145,6 +148,7 @@ $base-size-large-screen: 900;
     text-align: center;
     margin-top: $base-size*0.073125vw;
     font-size: $base-size*0.1vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
   }
 
   .employee-name {
@@ -223,6 +227,7 @@ $base-size-large-screen: 900;
     text-align: center;
     margin-top: $base-size-large-screen*0.073125px;
     font-size: $base-size-large-screen*0.1px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
   }
 
   .employee-name {
