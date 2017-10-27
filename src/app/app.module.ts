@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {CoreModule} from './core/core.module';
 import {VisitKortModule} from './visit-kort/visit-kort.module';
+import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import {VisitKortModule} from './visit-kort/visit-kort.module';
     BrowserModule,
     BrowserAnimationsModule,
     CoreModule,
-    VisitKortModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
