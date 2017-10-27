@@ -80,7 +80,7 @@ $base-size-large-screen: 900;
   }
 
   .fa.fa-size {
-    font-size: $base-size-min*0.075vw;
+    font-size: $base-size-min*0.1vw;
   }
 
   .fa.fa-size-lg {
@@ -90,7 +90,7 @@ $base-size-large-screen: 900;
   .contact {
     text-align: left;
     display: block;
-    margin-top: ($base-size-min/6)*1vw;
+    margin-top: ($base-size-min/6)*0.85vw;
   }
 }
 
@@ -157,7 +157,7 @@ $base-size-large-screen: 900;
   }
 
   .fa.fa-size {
-    font-size: $base-size*0.075vw;
+    font-size: $base-size*0.1vw;
   }
 
   .fa.fa-size-lg {
@@ -167,7 +167,7 @@ $base-size-large-screen: 900;
   .contact {
     text-align: left;
     display: block;
-    margin-top: ($base-size/6)*1vw;
+    margin-top: ($base-size/6)*0.85vw;
   }
 }
 
