@@ -1,7 +1,8 @@
 import {Component, ElementRef, HostListener} from '@angular/core';
 import {StateService} from './core/services/state.service';
-import {MatSnackBar} from "@angular/material";
-import {KonamiSnackBarComponent} from "./konami-snack-bar.component";
+import {MatSnackBar} from '@angular/material';
+import {KonamiSnackBarComponent} from './konami-snack-bar.component';
+import {InstagramParseService} from './core/services/instagram-parse.service';
 
 @Component({
   selector: 'vk-root',
@@ -16,7 +17,7 @@ export class AppComponent {
 
   state: StateService;
 
-  constructor(public snackBar: MatSnackBar) {
+  constructor(public snackBar: MatSnackBar, ){
 
   }
 
@@ -30,7 +31,7 @@ export class AppComponent {
 
       // if the last key is reached, activate cheats
       if (this.konamiCodePosition === this.konamiCode.length) {
-        this.snackBar.openFromComponent(KonamiSnackBarComponent, {duration: 2000})
+        this.snackBar.openFromComponent(KonamiSnackBarComponent, {duration: 2000});
         this.konamiCodePosition = 0;
       }
     } else {

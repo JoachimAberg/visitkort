@@ -1,5 +1,7 @@
 import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {SocialMediaLink} from './social-media-link.model';
+import {InstagramParseService} from '../../core/services/instagram-parse.service';
+import {Nod} from '../../core/models/nod';
 
 @Component({
   selector: 'vk-social-media-link',
@@ -14,8 +16,13 @@ export class VisitKortSocialMediaLinkComponent implements OnInit, OnChanges {
   socialMediaLinks: Map<string, SocialMediaLink>;
   url: string;
   displayName: string;
+  instaNoder: Nod[];
 
-  constructor() {
+  constructor(private insta: InstagramParseService) {
+    this.insta.noder.subscribe((noder) => {
+      this.instaNoder = noder;
+    });
+
     this.socialMediaLinks = new Map();
     this.socialMediaLinks.set('facebook-official', {url: 'https://www.facebook.com/joachim.aberg/', displayName: 'Joachim Åberg'});
     this.socialMediaLinks.set('instagram', {url: 'https://www.facebook.com/joachim.aberg/', displayName: 'joachim.aberg'});
